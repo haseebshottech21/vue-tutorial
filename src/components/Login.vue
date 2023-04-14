@@ -11,7 +11,7 @@
     <br />
     <br />
 
-    <button v-on:click="getLoginData">Signup</button>
+    <button v-on:click="getLoginData">Login</button>
   </div>
 </template>
 

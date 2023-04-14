@@ -6,6 +6,11 @@
     <!-- <DataBind v-on:updateTitle="updateTitleText($event)" />
     <Child v-bind:name="name" v-bind:users="users" /> -->
     <Login />
+    <br />
+
+    <br />
+    <h1>Signup Form</h1>
+    <Signup />
   </div>
 </template>
 
@@ -14,6 +19,7 @@
 // import DataBind from './components/DataBind.vue';
 // import Child from './components/Child.vue';
 import Login from './components/Login.vue';
+import Signup from './components/Signup.vue';
 
 export default {
   name: 'App',
@@ -22,6 +28,7 @@ export default {
     // DataBind,
     // Child,
     Login,
+    Signup,
   },
   data() {
     return {
